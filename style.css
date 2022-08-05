@@ -14,6 +14,55 @@ section#secion{
 	max-width: 600px;
 	max-height: 400px;
 	margin: 20px auto 20px auto;
-	border-radius: 5px;
+	border-radius: 10px;
 	padding: 10px;
+	animation: 2s aparec linear;
+}
+
+section h1{
+	font-size: 2em;
+	color: #93A7B7;
+	text-shadow: 2px 2px 1px #284A67;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+section input{
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+	border: none;
+	padding: 5px;
+	background-color: #CCD6DE;
+	color: #3E5B74;
+	width: 200px;
+	text-align: center;
+	border: 3px solid #3E5B74;
+	border-radius: 4px;
+	margin: auto;
+}
+
+section input#buti.noclick{
+	width: 100px;
+	border-color: #5E5E5E;
+	color: #5E5E5E;
+	background-color: #DADADA;
+	transition: 1s background-color ease-out, 1s color ease-out, 1s border-color ease-out;
+}
+
+section input#buti.noclick:hover{
+	background-color: white;
+	color: #BCBCBC;
+	border-color: #BCBCBC;
+}
+
+section input#buti.click{
+	border-color: #555;
+	color: #555;
+	background-color: #AAA;
+	width: 100px;
+}
+
+@keyframes aparec{
+	from{opacity: 0%;}to{opacity: 100%;}
 }
