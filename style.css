@@ -24,6 +24,7 @@ section h1{
 	color: #93A7B7;
 	text-shadow: 2px 2px 1px #284A67;
 	margin-bottom: 20px;
+	margin-top: 15px;
 	text-align: center;
 }
 
@@ -42,21 +43,20 @@ section input{
 	margin: auto;
 }
 
-section input#buti.noclick{
+section input#buti{
 	width: 100px;
 	border-color: #5E5E5E;
 	color: #5E5E5E;
 	background-color: #DADADA;
-	transition: 1s background-color ease-out, 1s color ease-out, 1s border-color ease-out;
 }
 
-section input#buti.noclick:hover{
+section input#buti:hover{
 	background-color: white;
-	color: #BCBCBC;
-	border-color: #BCBCBC;
+	color: #9A9A9A;
+	border-color: #9A9A9A;
 }
 
-section input#buti.click{
+section input#buti:active{
 	border-color: #555;
 	color: #555;
 	background-color: #AAA;
