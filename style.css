@@ -4,8 +4,8 @@
 }
 
 body{
-	background-color: #303030;
-	color: #303030;
+	background-color: #333;
+	color: #333;
 	font-family: Arial, Helvetica, Verdana, sans-serif;
 }
 
@@ -13,8 +13,8 @@ section#secion{
 	background-color: white;
 	max-width: 600px;
 	max-height: 400px;
-	margin: 20px auto 20px auto;
-	border-radius: 10px;
+	margin: 150px auto 0px auto;
+	border-radius: 10px 10px 0px 0px;
 	padding: 10px;
 	animation: 2s aparec linear;
 }
@@ -26,6 +26,16 @@ section h1{
 	margin-bottom: 20px;
 	margin-top: 15px;
 	text-align: center;
+}
+
+section h1#msg{
+	font-size: 1.6em;
+	text-shadow: none;
+	background-color: #93A7B7;
+	color: white;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	text-shadow: 0px 0px 4px #3E5B74;
 }
 
 section input{
@@ -61,6 +71,27 @@ section input#buti:active{
 	color: #555;
 	background-color: #AAA;
 	width: 100px;
+}
+
+div#rodape{
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+	background-color: #777;
+	padding: 10px 30px;
+	max-width: 560px;
+	margin: 0px auto 0px auto;
+	border-radius: 0px 0px 10px 10px;
+	animation: 2s aparec linear;
+}
+
+div#rodape a{
+	text-decoration: none;
+	color: #333;
+}
+
+div#rodape a:hover{
+	text-decoration: underline;
 }
 
 @keyframes aparec{
